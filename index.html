@@ -1,0 +1,92 @@
+<!DOCTYPE HTML5>
+<html>
+    
+    <head>
+        
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script type="text/javascript" src="/js/logger.js"></script>
+        <script type="text/javascript" src="/js/tree.js"></script>
+        <script type="text/javascript" src="/js/model.js"></script>
+        <script type="text/javascript" src="/js/controller.js"></script>
+        <script type="text/javascript" src="/js/app.js"></script>
+        
+    </head>
+    <body>
+        
+        <div class="menu_container">
+            
+            <button id="search">
+                <img src="assets/icons/search.svg">
+            </button>
+            
+            <header>
+                <button id="close"></button>
+            </header>
+            
+            <section class="wheel" id="wheel">
+                
+                <div class="zoom-out">
+                    <img src="assets/icons/zoom-out.png" id="zoom_out_button">
+                </div>
+                
+                <div class="selector" id="selector">
+                    <img src="./assets/icons/right.svg" id="zoom-in">
+                </div>
+                
+                <div class="container">
+                    <ul id="wheel_container">
+                        
+                        <!-- ELEMENTS ARE INJECTED BY updateWheel -->
+                        <!-- 
+                            <li class="wheel_elem overlapped">
+                                    <p> value </p>
+                            </li>
+                        -->
+                    </ul>
+                </div>
+            </section>
+            
+            <section class="labels">
+                <div class="container">
+                    <ul id="label_container">
+                        
+                        <!-- ELEMENTS ARE INJECTED BY zoomIn -->
+                        <!--
+                            <li class="labels">
+                                <p></p>
+                            </li>  
+                        -->
+                        
+                    </ul>
+                </div>
+            
+            </section>
+              
+            <div class="bottom_bar">
+                <button id="removeContext">
+                    <img src="assets/icons/back.svg" id="remove_last_search">
+                </button>
+                <div class="separator"></div>
+                <div class="container">
+                    <ul class="inner_container" id="search_box">
+                        
+                        <!-- ELEMENTS ARE INJECTED BY addToSearch -->
+                        <!-- <li>
+                                <div class="chip">
+                                    <div class="text">
+                                        <p>Element</p>
+                                    </div>
+                                    <img src="assets/icons/close.png" class="search_elem">
+                                </div>
+                            </li> -->
+                        
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+        
+    </body>
+    
+</html>

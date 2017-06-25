@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="right.svg"
+   inkscape:version="0.92.1 15371">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="744"
+     id="namedview6"
+     showgrid="false"
+     inkscape:measure-start="0,0"
+     inkscape:measure-end="0,0"
+     inkscape:zoom="27.812867"
+     inkscape:cx="5.5178483"
+     inkscape:cy="12.567758"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <path
+     d="m 7.4394534,16.196182 4.5799996,-4.59 -4.5799996,-4.5900003 1.41,-1.41 5.9999996,6.0000003 -5.9999996,6 z"
+     id="path2"
+     inkscape:connector-curvature="0" />
+  <rect
+     style="opacity:1;fill:#c60055;fill-opacity:1"
+     id="rect4513"
+     width="10.031328"
+     height="2.0853658"
+     x="8.6724997"
+     y="-2.3187399"
+     ry="2.86607e-17"
+     transform="rotate(45.077805)" />
+  <rect
+     style="opacity:1;fill:#c60055;fill-opacity:1"
+     id="rect4513-3"
+     width="10.031328"
+     height="2.0853658"
+     x="-7.711266"
+     y="16.618298"
+     ry="2.86607e-17"
+     transform="rotate(-44.918145)"
+     inkscape:transform-center-x="1.6179641"
+     inkscape:transform-center-y="0.10774981" />
+</svg>

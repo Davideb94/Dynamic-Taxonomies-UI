@@ -1,0 +1,386 @@
+@import 'normalize.css';
+
+@font-face{
+    font-family: RobotoLight;
+    src: url("../assets/fonts/Roboto-Light.ttf");
+}
+
+@font-face{
+    font-family: RobotoRegular;
+    src: url("../assets/fonts/Roboto-Regular.ttf");
+}
+
+//font sizes
+@headline-text-size: 3.936em;
+@title-text-size: 2.936em;
+@body-text-size: 1.936em;
+
+//palette
+@background: #f5f5f6;
+
+@primary: #3f51b5;
+@primary-dark: #002984;
+@primary-light: #757de8;
+
+@secondary: #ff4081;
+@secondary-dark: #c60055;
+@secondary-light: #ff79b0;
+
+@legible-text: #f2f2f2;
+@soft-background: #333333;
+
+//font colors
+.primary{
+    
+    color: #ffffff;
+    opacity: 0.73;
+    
+}
+
+.primary-dark{
+    
+    color: #ffffff;
+    opacity: 0.53;
+    
+}
+
+.primary-light{
+    
+    color: #000000;
+    opacity: 0.77;
+    
+}
+
+/*Mobile*/
+@media(max-device-width: 767px){
+    
+    body{
+        
+        height: 100%;
+        width: 100%;
+        padding: 0px;
+        overflow: hidden;
+        font-family: RobotoLight;
+        font-size: @body-text-size;
+        z-index: 0;
+        
+    }
+    
+    #search{
+        
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        top: 50%;
+        left: 75%;
+        border-radius: 50%;
+        border: none;
+        outline:none;
+        background-color: #ff4081;
+        box-shadow: 0 7px 30px 10px rgba(0,0,0,0.3);
+        z-index: 100;
+        
+    }
+    
+    #search img{
+        
+        height: 50%;
+        opacity: 0.8;
+        
+    }
+    
+    .menu_container{
+        
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+        margin: 0px;
+        background-color: aqua;
+        z-index: 30;
+        
+    }
+    
+    header{
+        
+        width: 97%;
+        height: 5%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding-left: 3%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        margin: 0;
+        background-color: @primary-dark;
+        box-shadow:  0 7px 40px 20px rgba(0,0,0,0.30);
+        z-index: 90;
+        
+    }
+    
+    header button{
+        
+        height: 100%;
+        width: 10%;
+        border: none;
+        background: none;
+        outline:none;
+        background-image: url(../assets/icons/close.png);
+        background-size: cover;
+        
+    }
+    
+    .zoom-out{
+        
+        height: 47%;
+        width: 20%;
+        position: fixed;
+        top: 8%;
+        left: 0;
+        padding-top: 24.5%;
+        opacity: .8;
+        z-index: 91;
+        //box-shadow: 10px 0 60px 5px rgba(0,0,0,0.3);
+        
+    }
+    
+    .zoom-out img{
+        
+        width: 100%;
+        
+    }
+    
+    section.wheel{
+        
+        width: 100%;
+        height: 55%;
+        position: absolute;
+        top: 0%;
+        overflow: scroll;
+        background-color: @background;
+        z-index: 40;
+        
+    }
+    
+    .wheel .selector{
+        
+        width: 100%;
+        height: 9%;
+        position: fixed;
+        top: 22.5%;
+        opacity: .8;
+        z-index: 90;
+        
+    }
+    
+    .wheel .selector img{
+        
+        height: 100%;
+        float: right;
+        margin-right: 2%;
+        padding: 0;
+        
+    }
+    
+    .hide{
+        
+        display: none;
+        
+    }
+    
+    .wheel .container{
+        
+        width: 100%;
+        position: absolute;
+        top: 41%;
+        padding-bottom: 47%;
+        text-align: center;
+        
+    }
+    
+    .wheel .container ul{
+        
+        margin: 0;
+        padding: 0px;
+        
+    }
+    
+    .wheel .container ul li{
+        
+        
+        list-style: none;
+        
+    }
+    
+    .wheel .container ul li p{
+        
+        font-size: @title-text-size;
+        margin: 0;
+        
+    }
+    
+    section.labels{
+        
+        width: 100%;
+        height: 45%; 
+        position: absolute;
+        bottom: 0;
+        overflow: scroll;
+        background-color: @primary;
+        box-shadow:  0 -3px 30px 10px rgba(0,0,0,0.3);
+        z-index: 50;
+        
+    }
+    
+    .labels .container{
+        
+        width: 100%;
+        padding-bottom: 21%;
+        
+    }
+    
+    .labels .container ul{
+        
+        padding: 0px;
+        margin: 0px;
+        
+    }
+    
+    .labels .container ul li{
+        
+        padding-top: 6%;
+        padding-bottom: 6%;
+        padding-left: 10%;
+        border-bottom: 1px solid #f2f2f2;
+        list-style: none;
+        
+    }
+    
+    .labels .container ul li p{
+        
+        display: inline;
+        .primary;
+        font-size: @body-text-size;
+        
+    }
+    
+    .bottom_bar{
+        
+        width: 100%;
+        height: 12%;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background-color: @primary-light;
+        box-shadow:  0 7px 40px 20px rgba(0,0,0,0.30);
+        z-index: 99;
+        
+    }
+    
+    .bottom_bar button{
+        
+        height: 100%;
+        width: 15%;
+        float: left;
+        padding-right: 4%;
+        padding-left: 4%;
+        border: none;
+        background-color: transparent;
+        
+    }
+    
+    .separator {
+        
+        width: 1px;
+        height: 65%;
+        margin-top: 4%;
+        float: left;
+        border-right-style: solid;
+        border-right-width: 1px;
+        border-right-color: black;
+        
+    }
+    
+    .bottom_bar .container{
+        
+        height: 100%;
+        width: 84%;
+        float: left;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        
+    }
+    
+    .bottom_bar .container .inner_container{
+        
+        height: 100%;
+        min-width: 100%;
+        display: inline-flex;
+        overflow: hidden;
+        margin: 0;
+        
+    }
+    
+    .bottom_bar .container .inner_container li{
+        
+        height: 100%;
+        padding-right: 50px;
+        list-style: none;
+        
+    }
+    
+    .chip{
+        
+        height: 60%;
+        width: 350px;
+        padding-left: 50px;
+        padding-right: 20px;
+        border-radius: 70px;
+        color: white;
+        margin-top: 35px;
+        text-align: center;
+        font-size: 1.936em;
+        background-color: #000000;
+        opacity: .54;
+        
+    }
+    
+    .chip img{
+        
+        height: 65%;
+        float: right;
+        margin-top: 20px;
+        
+    }
+    
+    .chip .text{
+        
+        height: 100%;
+        float: left;
+        
+    }
+    
+    .chip .text p{
+        
+        margin-top: 20px;
+        margin-bottom: 0;
+        
+    }
+    
+    .wheel_elem{
+        
+        transition: color 0.197s, font-size 0.197s;
+        
+    }
+    
+    .overlapped{
+        
+        color: @secondary-dark;
+        font-size: 1.500em;
+        
+    }
+        
+}
+/*Anything wider*/
+@media(min-device-width: 768px){
+    
+}
